@@ -11,8 +11,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^8.5.2",
     "http-server": "^0.10.0",
-    "typescript": "^2.6.2",
-    "tslint": "^5.8.0"
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/empower": "^1.2.30",
+    "@types/mocha": "^2.2.45",
+    "@types/power-assert": "^1.4.29",
+    "espower-typescript": "^8.1.2",
+    "mocha": "^4.1.0",
+    "power-assert": "^1.4.4"
   }
 }
