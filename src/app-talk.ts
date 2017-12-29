@@ -1,6 +1,8 @@
 export class Talk {
     public static getGreeting(now: Date): string {
-        if (now.getHours() < 12) {
+        const hour = now.getHours();
+
+        if (hour < 12) {
             return "Hello!";
         }
 
