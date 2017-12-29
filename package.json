@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "rm -fR ./dist; node_modules/typescript/bin/tsc -p tsconfig.json",
+    "tslint": "node_modules/tslint/bin/tslint -p tslint.json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "http-server": "^0.10.0",
-    "typescript": "^2.6.2"
+    "typescript": "^2.6.2",
+    "tslint": "^5.8.0"
   }
 }
