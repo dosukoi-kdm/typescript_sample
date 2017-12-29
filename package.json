@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "rm -fR ./dist; node_modules/typescript/bin/tsc -p tsconfig.json",
-    "tslint": "node_modules/tslint/bin/tslint -p tslint.json"
+    "tslint": "node_modules/tslint/bin/tslint -p tslint.json",
+    "test": "node_modules/mocha/bin/_mocha dist/test"
   },
   "author": "",
   "license": "ISC",
